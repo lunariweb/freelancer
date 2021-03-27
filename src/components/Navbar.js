@@ -18,7 +18,18 @@ const Navbar = () => {
           />
           <button className="navbar__searchBtn">Search</button>
         </div>
+        {/* blank content */}
+        <div className="blank"></div>
         {/* navbar buttons */}
+        <div className="navbar__buttons">
+          <h3>Explore</h3>
+          <h3>Become a Seller</h3>
+          <h3>About</h3>
+          <h3>Sign In</h3>
+        </div>
+        <div className="navbar__lastBtn">
+          <button>Join</button>
+        </div>
         {/* final button */}
       </div>
     </div>
